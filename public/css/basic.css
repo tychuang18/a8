@@ -23,7 +23,7 @@ ul li {
   background: #eee;
   font-size: 18px;
   transition: 0.2s;
-  
+
   /* make the list items unselectable */
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -70,13 +70,13 @@ ul li.checked::before {
 }
 
 .close:hover {
-  background-color: #f44336;
+  background-color: #9a9090;
   color: white;
 }
 
 /* Style the header */
 .header {
-  background-color: #f44336;
+  background-color: #9a9090;
   padding: 30px 40px;
   color: white;
   text-align: center;
@@ -120,7 +120,7 @@ input {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #f44336;
+  background-color: #767676;
   overflow: hidden;
 }
 
