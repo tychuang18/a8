@@ -24,11 +24,16 @@
 
 <!-- Use any element to open the sidenav -->
 <span onclick="openNav()">Open Nav</span>
+<<<<<<< HEAD
+<input type="text" id="myInput"
+onkeyup="myFunction()" placeholder="Search for food.." title="Type in a food">
+=======
 
 <!--<form class="example" action="action_page.php">
   <input type="text" placeholder="Search.." name="search">
   <button type="submit"><i class="fa fa-search"></i>Search</button>
 </form>-->
+>>>>>>> 141463a70c38b25213f48591827a3a82289a4548
 
 <button onclick="goBack()">Go Back</button>
 
@@ -41,13 +46,19 @@
   <a href="#about">Others</a>
 </div>-->
 
+
+
+
 <ul id="myUL">
-  <li>Milk</li>
-  <li class="checked">Cabbage</li>
-  <li>Eggs</li>
-  <li>Apple</li>
-  <li>Pork</li>
-  <li>Guacamoli</li>
+  <li><a href="#">Egg</a></li>
+  <li><a href="#">Milk</a></li>
+
+  <li><a href="#">Apple</a></li>
+  <li><a href="#">Pork</a></li>
+
+  <li><a href="#">Guacamoli</a></li>
+  <li><a href="#">Orange</a></li>
+  <li><a href="#">Tofu</a></li>
 </ul>
 
 <button onclick="window.location.href = 'recipes.html';" class="button" style="float: right;">Find Recipes</button>
@@ -133,7 +144,22 @@ function closeNav() {
 function goBack() {
   window.history.back();
 }
-
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
 </script>
 <script src="js/basic.js"></script>
 </body>
