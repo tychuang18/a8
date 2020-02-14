@@ -1,47 +1,45 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <title>My Fridge</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <script type="application/x-javascript"> addEventListener("load", function() {setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <meta charset utf="8">
 
         <!--font-awesome-css-->
-           <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <!--bootstrap-->
-      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <!--custom css-->
-      <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <!--component-css-->
-        <link href="./css/login-bootstrap.css" rel = "stylesheet">
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="./css/search.css" rel = "stylesheet">
-
-
-
-    <!--default-js-->
-      <script src="js/jquery-2.1.4.min.js"></script>
-    <!--bootstrap-js-->
-      <script src="js/bootstrap.min.js"></script>
-    <!--script-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/search.css" rel = "stylesheet">
     <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    </head>
-    <body>
-    <div class= "wrapper fadeInDown">
-      <form>
-      <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
-      <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
-      <input type="submit" class="fadeIn fourth" value="Log In">
-    </form>
 
-    <div id="formFooter">
-      <a class="underlineHover" href="#">Forgot Password?</a>
-    </div>
-  </div>
-</div>
+
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--default-js-->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <!--bootstrap-js-->
+    <script src="js/bootstrap.min.js"></script>
+
+    {{> facebook}}
+    <script src="/js/facebook.js"></script>
+
+    <script src="/js/facebook.js"></script>
+    <script type="application/x-javascript"> addEventListener("load", function() {setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <!--script-->
+    <script>
+    function goBack() {
+      window.history.back()
+    }
+    </script>
+
+    </head>
 
 
     <div class="fit_main">
@@ -50,20 +48,12 @@
       <div class="main_frame second">
         <div class="main_frame">
           <iframe class="frame-border" src="single.html" frameborder="0"></iframe>
-          <button class="btn"><i class="fa fa-home"></i> Home</button>
-          <button class="btn"><i class="fa fa-bars"></i> Menu</button>
-          <button class="btn"><i class="fa fa-trash"></i> Trash</button>
+
         </div>
-        <form class="example" action="action_page.php">
-          <input type="text" placeholder="Search.." name="search">
-          <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
       </div>
     </div>
 
-
-
     <script src="js/jquery.nicescroll.js"></script>
-<script src="js/scripts.js"></script>
+    <script src="js/scripts.js"></script>
     </body>
 </html>
