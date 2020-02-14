@@ -25,6 +25,15 @@
 
 <!-- Use any element to open the sidenav -->
 <span onclick="openNav()">Open Nav</span>
+
+<form class="example" action="action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+<button onclick="goBack()">Go Back</button>
+
+
 <!--Top nav
 <div class="topnav">
   <a class="active" href="#home">All</a>
@@ -42,8 +51,10 @@
   <li>Guacamoli</li>
 </ul>
 
-
 <button class="button" style="float: right;">Search For Recipes</button>
+
+
+
 
 <script>
 // Create a "close" button and append it to each list item
@@ -121,6 +132,11 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
+
+function goBack() {
+  window.history.back();
+}
+
 </script>
 <script src="js/basic.js"></script>
 </body>
