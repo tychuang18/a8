@@ -29,6 +29,13 @@
     <div class="fit_main">
       <h1 class="fit_tittle"><a href="index.html">My Fridge</a></h1>
       <button onclick="goBack()">Go Back</button>
+      {{#each recipes}}
+            <div class="recipes" id="{{name}}">
+                <img src={{imageURL}} class="img-responsive">
+                <h3>{{name}}</h3>
+                <p>{{description}}</p>
+            </div>
+      {{/each}}
 
 
 
