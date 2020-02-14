@@ -13,7 +13,6 @@
   <h2 style="margin:5px">My Fridge</h2>
   <!--<input type="text" id="myInput" placeholder="Ingredients...">
   <span onclick="newElement()" class="addBtn">Add</span>-->
-  <p class="facebookLogin">Please login through Facebook<fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button></p>
 
 </div>
 
@@ -29,7 +28,7 @@
 
 <form class="example" action="action_page.php">
   <input type="text" placeholder="Search.." name="search">
-  <button type="submit"><i class="fa fa-search"></i></button>
+  <button type="submit"><i class="fa fa-search"></i>Search</button>
 </form>
 
 <button onclick="goBack()">Go Back</button>
@@ -52,7 +51,7 @@
   <li>Guacamoli</li>
 </ul>
 
-<button class="button" style="float: right;">Search For Recipes</button>
+<button onclick="window.location.href = 'recipes.html';" class="button" style="float: right;">Find Recipes</button>
 
 
 <script>
