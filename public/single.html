@@ -24,18 +24,14 @@
 
 <!-- Use any element to open the sidenav -->
 <span onclick="openNav()">Open Nav</span>
-<<<<<<< HEAD
-<input type="text" id="myInput"
-onkeyup="myFunction()" placeholder="Search for food.." title="Type in a food">
-=======
 
-<!--<form class="example" action="action_page.php">
-  <input type="text" placeholder="Search.." name="search">
-  <button type="submit"><i class="fa fa-search"></i>Search</button>
-</form>-->
->>>>>>> 141463a70c38b25213f48591827a3a82289a4548
+<input type="text" id= "searchInput" onkeyup="search()"
+ placeholder="Search for names.." title="Type in a name">
+
 
 <button onclick="goBack()">Go Back</button>
+
+
 
 
 <!--Top nav
@@ -144,9 +140,11 @@ function closeNav() {
 function goBack() {
   window.history.back();
 }
-function myFunction() {
+
+/* search the word */
+function search() {
     var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("myInput");
+    input = document.getElementById("searchInput");
     filter = input.value.toUpperCase();
     ul = document.getElementById("myUL");
     li = ul.getElementsByTagName("li");
@@ -160,6 +158,8 @@ function myFunction() {
         }
     }
 }
+
+
 </script>
 <script src="js/basic.js"></script>
 </body>
