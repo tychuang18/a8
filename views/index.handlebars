@@ -23,23 +23,19 @@
 
     {{> facebook}}
     <script src="/js/facebook.js"></script>
+    
     </head>
     <body>
     <div class="fit_main">
       <h1 class="fit_tittle"><a href="index.html">My Fridge</a></h1>
+      <button onclick="goBack()">Go Back</button>
+
 
 
       <div class="main_frame second">
         <div class="main_frame">
           <iframe class="frame-border" src="single.html" frameborder="0"></iframe>
           <p class="facebookLogin">Please login through Facebook<fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button></p>
-
-            <button onclick="goBack()">Go Back</button>
-
-            <form class="example" action="action_page.php">
-              <input type="text" placeholder="Search.." name="search">
-              <button type="submit"><i class="fa fa-search"></i></button>
-            </form>
 
         </div>
       </div>
@@ -50,6 +46,7 @@
       window.history.back();
     }
     </script>
+
 
     <script src="js/jquery.nicescroll.js"></script>
     <script src="js/scripts.js"></script>
