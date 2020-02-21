@@ -1,0 +1,32 @@
+{
+    "recipes": [
+        {
+            "name": "Shrimp Alfredo Pasta",
+            "recipeURL": "https://www.dinneratthezoo.com/shrimp-alfredo/"
+        },
+        {
+            "name": "Garlic Butter Sauteed Zucchini",
+            "recipeURL": "https://www.inspiredtaste.net/38045/sauteed-zucchini-recipe/"
+        },
+        {
+            "name": "Egg & Potato Scramble",
+            "recipeURL": "https://www.myfoodandfamily.com/recipe/188951/quick-egg-potato-scramble"
+        },
+        {
+            "name": "Summer Lettuce Salad",
+            "recipeURL": "https://www.archanaskitchen.com/summer-lettuce-salad"
+        },
+        {
+            "name": "Creamy Fruit Salad",
+            "recipeURL": "https://bellyfull.net/2016/07/28/creamy-delicatessen-fruit-salad/"
+        },
+        {
+            "name": "Potato Carrot and Tomato Soup",
+            "recipeURL": "https://www.theburningkitchen.com/potato-tomato-and-carrot-soup-abc-soup/"
+        },
+        {
+            "name": "Custard Flan",
+            "recipeURL": "https://www.thespruceeats.com/traditional-flan-recipe-2342998"
+        },
+    ]
+}
